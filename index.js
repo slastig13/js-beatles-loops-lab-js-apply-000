@@ -22,3 +22,15 @@ function johnLennonFacts(facts) {
   }
   return newArray;
 }
+
+function iLoveTheBeatles(number) {
+  //  function should create a variable that stores an empty array
+  let array = [];
+
+  do {
+    array.push("I love the Beatles!");
+    number++;
+  } while (number < 15);
+
+  return array;
+}
