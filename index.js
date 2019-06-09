@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
   let index = 0
   while (index < facts.length) {
     let element = facts[index];
-    element = element + '!!!';
+    element = `${element}!!!`;
     index++;
   }
   return facts;
